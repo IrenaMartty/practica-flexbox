@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 0, 68);
+
+
+
+.box {
+    margin: 5px;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 20px;
+  
+    
+} 
+
+.box-1 {
+    order: 5;
+  
+}
+
+.box-2 {
+    order: 3;
+    align-self: stretch;
+ 
+}
+
+.box-3 {
+    order: 1;
+
+}
+
+.box-4 {
+    order: 2;
+}
+
+.box-5 {
+    order: 4;
+  
+
+}
+/* .contenedor-mayor {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-prueba {
+    background-color: red;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.caja {
+    background-color: antiquewhite;
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
+    flex-grow: 1;
+}
